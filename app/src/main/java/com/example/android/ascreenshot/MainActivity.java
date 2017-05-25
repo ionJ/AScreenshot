@@ -28,7 +28,6 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
     public void onClick(View view){
         switch(view.getId()){
             case R.id.button:
-                Toast.makeText(MainActivity.this,"app",Toast.LENGTH_LONG).show();
                 String webSite = " ";
                 EditText enter = (EditText)findViewById(R.id.enter_view);
                 webSite = enter.getText().toString();
